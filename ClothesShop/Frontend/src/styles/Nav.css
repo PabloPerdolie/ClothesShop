@@ -1,0 +1,26 @@
+.navigation {
+    background-color: #ececec;
+    padding: 16px;
+  }
+  
+  .navigation-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation-item {
+    margin-right: 16px;
+  }
+  
+  .navigation-item * {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navigation-item *:hover {
+    color: #007bff;
+  }

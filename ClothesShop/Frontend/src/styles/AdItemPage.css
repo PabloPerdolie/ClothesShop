@@ -1,0 +1,33 @@
+.add-item-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .add-item-main h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .add-item-main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .add-item-main form input {
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 200px;
+  }
+  
+  .add-item-main button{
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 6px;
+  }
